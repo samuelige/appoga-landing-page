@@ -1,6 +1,10 @@
 const data = [
     {
         id: 1,
+        title: "Home",
+    },
+    {
+        id: 2,
         title: "Company",
         items: [
             {
@@ -15,7 +19,7 @@ const data = [
         footer: true,
     },
     {
-        id: 2,
+        id: 3,
         title: "Services",
         items: [
             {
@@ -40,7 +44,7 @@ const data = [
         footer: false,
     },
     {
-        id: 3,
+        id: 4,
         title: "Products",
         items: [
             {
@@ -62,7 +66,7 @@ const data = [
         footer: false,
     },
     {
-        id: 4,
+        id: 5,
         title: "Packages",
         items: [
             {
@@ -83,7 +87,7 @@ const data = [
         footer: false,
     },
     {
-        id: 5,
+        id: 6,
         title: "Resources",
         items: [
             {

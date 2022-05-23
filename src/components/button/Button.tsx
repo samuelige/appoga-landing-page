@@ -7,7 +7,7 @@ interface btnType {
 const Button = ({children, defaultStyle, handleClick} : btnType ) => {
   return (
     <button onClick={handleClick} className="defaultBtn">
-        {children}
+      {children}
     </button>
   )
 }
