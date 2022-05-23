@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './Dropdown.scss'
 import { HiChevronDown} from 'react-icons/hi'
 import { canada_flag, cell_phone, nigeria_flag } from '../../constants/image';

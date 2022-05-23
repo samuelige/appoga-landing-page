@@ -30,7 +30,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0.5rem 1rem;
+        // padding: 0.5rem 1rem;
         border: none;
 
         .btn_icon {
@@ -45,11 +45,11 @@
       .drop-menu{
         position: absolute;
         background: var(--white-color);
-        top: 100%;
+        top: 85px;
         height: 16rem;
         
         
-        z-index: 1;
+        z-index: 3;
         border-radius: 0.25rem;
         box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
         transition: all 0.2s ease-in-out;
@@ -105,10 +105,10 @@
       .drop-menu-resource {
         position: absolute;
         background: var(--white-color);
-        top: 100%;
+        top: 85px;
         
         
-        z-index: 1;
+        z-index: 3;
         border-radius: 0.25rem;
         box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
         transition: all 0.2s ease-in-out;
@@ -124,9 +124,10 @@
         right: 200px;
         width: 40%;
         padding: 0.6rem 4rem;
-        top: 100%;
+        top: 85px;
         line-height: 25px;
         padding: 0.5rem 0;
+        z-index: 3;
         background: var(--white-color);
         border-radius: 0.25rem;
         box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);

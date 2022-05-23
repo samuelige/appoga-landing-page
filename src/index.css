@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Fraunces:opsz@9..144&family=Open+Sans:wght@300&family=Poppins&display=swap');
 
 :root {
-  --font-base: 'Poppins', sans-serif;
+  --font-base: 'Poppins';
 
   --primary-color: #5F2264;
   --secondary-color: #E5E5E5;
@@ -13,5 +13,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: var(--font-base);
   scroll-behavior: smooth;
 }
