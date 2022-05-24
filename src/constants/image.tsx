@@ -14,7 +14,9 @@ import branding_service from '../assets/image/branding_service.png';
 import data_analysis from '../assets/image/data_analysis.png';
 import product_design from '../assets/image/product_design.png';
 import web_development from '../assets/image/web_development.png';
-
+import laundry_app from '../assets/image/laundry_app.png';
+import logistic_app from '../assets/image/logistic_app.png';
+import order from '../assets/image/order.png';
 
 export { 
     about_us,
@@ -33,4 +35,7 @@ export {
     saas_entertainment, 
     saas_healthcare,
     web_development,
+    laundry_app,
+    logistic_app,
+    order
 };

@@ -2,12 +2,12 @@ import React from 'react'
 import './ServiceCard.scss'
 
 interface IProps {
-    img: string;
-    title: string;
-    description: string;
+  img: string;
+  title: string;
+  description?: string;
 }
 
-const ServiceCard = ({img,title, description}: IProps) => {
+const ServiceCard = ({img, title, description} : IProps) => {
   return (
     <div className="service__card">
         <div className="overlay"></div>

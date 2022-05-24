@@ -2,6 +2,7 @@ import './App.css';
 import AboutSolutions from './components/About_Solutions/About_Solutions';
 import Navbar from './components/navbar/Navbar';
 import Header from './container/Header/Header';
+import { Products } from './container/Products/Products';
 import Services from './container/Services/Services';
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <Header/>
       <AboutSolutions/>
       <Services/>
+      <Products/>
+      services
       
     </div>
   );
