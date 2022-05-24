@@ -24,16 +24,6 @@ const Banner = ({index, img, title, content}: IProps) => {
         </div>
         
     </div>
-    
-
-    // <div className="myslide fade">
-    //     <div></div>
-    //     <div className="txt">
-    //         <h1>IMAGE 1</h1>
-    //         <p>Web Devoloper<br/>Subscribe To My Channel For More Videos</p>
-    //     </div>
-    //     <img src={hero_image} alt=''/>
-    // </div>
   )
 }
 

@@ -8,16 +8,29 @@ import saas_commerce from '../assets/image/saas_commerce.png';
 import saas_education from '../assets/image/saas_education.png';
 import saas_entertainment from '../assets/image/saas_entertainment.png';
 import saas_healthcare from '../assets/image/saas_healthcare.png';
+import agile_project_management from '../assets/image/agile_project_management.png';
+import app_development from '../assets/image/app_development.png';
+import branding_service from '../assets/image/branding_service.png';
+import data_analysis from '../assets/image/data_analysis.png';
+import product_design from '../assets/image/product_design.png';
+import web_development from '../assets/image/web_development.png';
+
 
 export { 
-    appoga__logo, 
+    about_us,
+    agile_project_management,
+    appoga__logo,
+    app_development,
+    branding_service, 
     canada_flag, 
-    cell_phone, 
+    cell_phone,
+    data_analysis, 
     hero_image, 
     nigeria_flag, 
-    about_us, 
+    product_design,
     saas_commerce, 
     saas_education, 
     saas_entertainment, 
-    saas_healthcare
+    saas_healthcare,
+    web_development,
 };
