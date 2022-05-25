@@ -18,6 +18,8 @@ import laundry_app from '../assets/image/laundry_app.png';
 import logistic_app from '../assets/image/logistic_app.png';
 import order from '../assets/image/order.png';
 import circle_clients from '../assets/image/circle_clients.png';    
+import app_project from '../assets/image/app_project.png';
+import website_project from '../assets/image/website_project.png';
 
 export { 
     about_us,
@@ -39,5 +41,7 @@ export {
     laundry_app,
     logistic_app,
     order,
-    circle_clients
+    circle_clients,
+    app_project,
+    website_project
 };

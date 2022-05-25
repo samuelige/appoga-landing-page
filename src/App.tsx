@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Clients from './container/Clients/Clients';
 import Header from './container/Header/Header';
 import { Products } from './container/Products/Products';
+import Projects from './container/Projects/Projects';
 import Services from './container/Services/Services';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Services/>
       <Products/>
       <Clients/>
+      <Projects/>
       
     </div>
   );

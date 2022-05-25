@@ -1,16 +1,18 @@
+import React from 'react'
 import CustomCarousel from '../../components/Custom_Carousel/Custom_Carousel'
-import {data} from './data'
 import ImageTitleCard from '../../components/ImageTitle_Card/ImageTitleCard'
-import './Solutions.scss'
+import { data } from './data'
+import './Projects.scss'
 
-const Solutions = () => {
+const Projects = () => {
   return (
-    <div className='solutions_container'>
-        <div className='solutions_container_title'>
-            <h1>Our SaaS Solutions</h1>
-            <p>We have experienced professionals to develop platforms that suit your needs</p>
+    <div className='projects'>
+        <div className='project_container_title'>
+            <h1>Featured Projects</h1>
+            <p>Some of our projects</p>
         </div>
-        <div className='solutions_container_cards'>
+
+        <div className='project_container_cards'>
             <CustomCarousel>
                 {
                     data.map(({img, title}) => (
@@ -18,10 +20,11 @@ const Solutions = () => {
                     ))
                 }
             </CustomCarousel>
-            {/* <SolutionCard /> */}
         </div>
+
+        <div className='small'><a href="##">see more</a></div>
     </div>
   )
 }
 
-export default Solutions
+export default Projects

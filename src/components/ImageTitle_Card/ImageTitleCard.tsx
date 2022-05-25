@@ -1,10 +1,10 @@
-import "./Solution_Card.scss"
+import "./ImageTitleCard.scss"
 
-interface SolutionCardProps {
+interface ImageTitleCardProps {
     img: string;
     title: string;
 }
-const SolutionCard = ({img, title} : SolutionCardProps) => {
+const ImageTitleCard = ({img, title} : ImageTitleCardProps) => {
   return (
     <div className='solution_card'>
         <img src={img} alt={img} />
@@ -15,4 +15,4 @@ const SolutionCard = ({img, title} : SolutionCardProps) => {
   )
 }
 
-export default SolutionCard
+export default ImageTitleCard
