@@ -18,7 +18,6 @@ const Solutions = () => {
                     ))
                 }
             </CustomCarousel>
-            {/* <SolutionCard /> */}
         </div>
     </div>
   )

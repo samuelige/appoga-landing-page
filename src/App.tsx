@@ -3,6 +3,7 @@ import AboutSolutions from './components/About_Solutions/About_Solutions';
 import Navbar from './components/navbar/Navbar';
 import Clients from './container/Clients/Clients';
 import Header from './container/Header/Header';
+import Press from './container/Press/Press';
 import { Products } from './container/Products/Products';
 import Projects from './container/Projects/Projects';
 import Services from './container/Services/Services';
@@ -21,6 +22,7 @@ function App() {
       <Projects/>
       <Testimonials/>
       <Standout/>
+      <Press/>
       
     </div>
   );
