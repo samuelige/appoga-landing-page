@@ -21,6 +21,7 @@ import circle_clients from '../assets/image/circle_clients.png';
 import app_project from '../assets/image/app_project.png';
 import website_project from '../assets/image/website_project.png';
 import standout from '../assets/image/standout.png';
+import arrow_icon from '../assets/image/arrow_icon.png';
 
 export { 
     about_us,
@@ -45,5 +46,6 @@ export {
     circle_clients,
     app_project,
     website_project,
-    standout
+    standout,
+    arrow_icon
 };

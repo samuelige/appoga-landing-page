@@ -6,6 +6,7 @@ import Header from './container/Header/Header';
 import Press from './container/Press/Press';
 import { Products } from './container/Products/Products';
 import Projects from './container/Projects/Projects';
+import Quote from './container/Quote/Quote';
 import Services from './container/Services/Services';
 import Standout from './container/Standout/Standout';
 import Testimonials from './container/Testimonials/Testimonials';
@@ -23,6 +24,7 @@ function App() {
       <Testimonials/>
       <Standout/>
       <Press/>
+      <Quote/>
       
     </div>
   );
